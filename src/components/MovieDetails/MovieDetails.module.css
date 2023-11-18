@@ -1,0 +1,22 @@
+.movie_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.movie_details img {
+  width: 250px;
+  height: 400px;
+}
+.movie_details_text {
+  margin-left: 20px;
+}
+.movie_info {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.btn {
+  margin: 0 auto;
+  font-size: 20px;
+  display: flex;
+  margin-top: 20px;
+}

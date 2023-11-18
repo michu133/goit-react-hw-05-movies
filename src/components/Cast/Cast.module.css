@@ -1,0 +1,15 @@
+.img {
+  width: 150px;
+}
+.title {
+  font-size: 20px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.list li {
+  margin-right: 10px;
+}
