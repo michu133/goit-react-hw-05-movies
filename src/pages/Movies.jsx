@@ -26,7 +26,7 @@ export const Movies = () => {
     <div>
       <input
         type="text"
-        value={title}
+        value={title || ''}
         placeholder="Search by movie title..."
         onChange={e => setSearchParams({ title: e.target.value })}
       />
